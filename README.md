@@ -47,4 +47,4 @@ make
 
 # TODO
 * 做cpp批量编辑的shell
-* 
+* 中文乱码
