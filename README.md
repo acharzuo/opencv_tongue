@@ -1,6 +1,15 @@
 # opencv_tongue
 使用opnccv做中医舌诊视频、图像诊断的研究
 
+## 安装方法，基于macos 
+mac版本`macOS 10.12.4 (16E195)`
+
+### 下载opencv
+
+### 编译安装opencv
+```
+
+```
 
 ## 执行方法
 
