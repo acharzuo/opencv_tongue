@@ -1,18 +1,3 @@
-# opencv_tongue
-使用opnccv做中医舌诊视频、图像诊断的研究
-
-
-## 执行方法
-
-### 命令行编辑 
-```
-g++ colorim.cpp `pkg-config opencv --libs --cflags opencv` -o colorim
-g++ <cpp文件名> `pkg-config opencv --libs --cflags opencv` -o <输出的文件>
-```
-
-### 使用make
-CMakeLists.txt
-```
 PROJECT(Helloworld)          
 # 这是建立一个工程项目（类似于我们VS中建立C++项目一样），括号里面时工程名,工程名我们可以任意给，最后程序编译出来的可执行文件就是这个名字
 
@@ -34,17 +19,3 @@ TARGET_LINK_LIBRARIES(Helloworld ${OpenCV_LIBS})
 
 MESSAGE(STATUS "OpenCV_LIBS: ${OpenCV_LIBS}")
 # 好了，就修改这么点东西，保存，关闭。
-```
-执行命令
-```
-cmake .
-make
-```
-
-# 参考书籍
-《学习Opencv》清华大学
-
-
-# TODO
-* 做cpp批量编辑的shell
-* 
